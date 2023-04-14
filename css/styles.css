@@ -23,14 +23,14 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #655560;
+  background: #343f4c;
   padding: 2%;
   text-align: center;
 
 }
 
 .panel {
-  background-color: #655560;
+  background-color: #343f4c;
   color: #FCF7FF;
 
   width: 100%;
@@ -50,7 +50,7 @@ header {
 
 footer {
   display: flex;
-  background-color: #655560;
+  background-color: #343f4c;
   position: fixed;
   bottom: 0;
   left: 0;
