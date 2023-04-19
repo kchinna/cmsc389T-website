@@ -5,8 +5,8 @@ services:
     build:
         context: .
         dockerfile: Dockerfile
-    ports:
-      - "8080:80"
+    # ports:
+    #   - "8080:80"
     image: node-web-app
     container_name: node-web-app
     restart: unless-stopped
