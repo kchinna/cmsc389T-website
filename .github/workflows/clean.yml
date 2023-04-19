@@ -1,4 +1,4 @@
-name: clean_workflow
+name: clean workflow
 on: 
   workflow_dispatch:   
 jobs:

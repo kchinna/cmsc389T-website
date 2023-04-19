@@ -1,4 +1,4 @@
-name: deployment_workflow
+name: deployment workflow
 on: 
   push:
     branches: [main]
