@@ -15,6 +15,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd ../pub
+            cd ../pub/cmsc389T-website
             ls -a
             git pull origin main
