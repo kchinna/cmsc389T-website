@@ -16,4 +16,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd ../pub
-            git pull
+            git pull origin main
