@@ -15,5 +15,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd ../pub
-            ls -a
             git clone https://github.com/kchinna/cmsc389T-website.git
