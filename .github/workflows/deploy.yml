@@ -1,6 +1,3 @@
-
- 
-
 name: deployment workflow
 on: 
   push:
@@ -18,5 +15,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-              cd cmsc389T-website
+              cd ../pub
               git pull
